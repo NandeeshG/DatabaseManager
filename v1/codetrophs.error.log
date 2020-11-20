@@ -1,0 +1,213 @@
+2020/11/20 10:49:41 [error] 4915#4915: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:54:24 [error] 4915#4915: *4 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:54:33 [error] 4915#4915: *4 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:54:35 [error] 4915#4915: *4 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:55:48 [error] 5373#5373: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:55:48 [error] 5373#5373: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 10:55:50 [error] 5373#5373: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:8080", host: "localhost"
+2020/11/20 11:05:48 [error] 6729#6729: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:05:49 [error] 6729#6729: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:05:51 [error] 6729#6729: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:06:04 [error] 6729#6729: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:06:17 [error] 6729#6729: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:50:22 [error] 7274#7274: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:51:21 [error] 7274#7274: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:51:22 [error] 7274#7274: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /api HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:51:25 [error] 7274#7274: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:52:17 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:52:18 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:52:18 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:52:19 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:52:23 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Argument 2 passed to {closure}() must be an instance of RequestHandler, instance of Slim\Routing\RouteRunner given, called in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312 and defined in /home/nandeesh/Documents/codetrophs/v1/public/index.php:27
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(38): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:53:41 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:32
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(39): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET /add HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:53:45 [error] 9183#9183: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:32
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(39): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:55:59 [error] 9183#9183: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(22): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:56:00 [error] 9183#9183: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(22): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:56:33 [error] 9183#9183: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/public/index.php(32): Slim\App->run()
+#5 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:57:16 [error] 9183#9183: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/public/index.php(32): Slim\App->run()
+#5 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:57:16 [error] 9183#9183: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/public/index.php(32): Slim\App->run()
+#5 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:59:34 [error] 9183#9183: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/public/index.php(33): Slim\App->run()
+#5 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:59:35 [error] 9183#9183: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/public/index.php(33): Slim\App->run()
+#5 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:59:42 [error] 9183#9183: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Return value of class@anonymous::handle() must be an instance of Psr\Http\Message\ResponseInterface, null returned in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php:312
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/public/index.php(33): Slim\App->run()
+#4 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 11:59:43 [error] 9183#9183: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Return value of class@anonymous::handle() must be an instance of Psr\Http\Message\ResponseInterface, null returned in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php:312
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#1 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\Request))
+#3 /home/nandeesh/Documents/codetrophs/v1/public/index.php(33): Slim\App->run()
+#4 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php on line 312" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:04:12 [error] 9183#9183: *34 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(23): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:08:14 [error] 9183#9183: *38 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:15
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(22): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:10:38 [error] 9183#9183: *41 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:17
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(24): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:12:36 [error] 9183#9183: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function display_errors() in /home/nandeesh/Documents/codetrophs/v1/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:13:20 [error] 9183#9183: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function log_errors() in /home/nandeesh/Documents/codetrophs/v1/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:14:42 [error] 9183#9183: *48 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function log_errors() in /home/nandeesh/Documents/codetrophs/v1/public/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:15:40 [error] 9183#9183: *48 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=' in /home/nandeesh/Documents/codetrophs/v1/public/index.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/11/20 12:17:51 [error] 9183#9183: *52 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot instantiate interface Psr\Http\Message\ResponseInterface in /home/nandeesh/Documents/codetrophs/v1/public/index.php:18
+Stack trace:
+#0 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner))
+#1 /home/nandeesh/Documents/codetrophs/v1/public/index.php(25): class@anonymous->handle(Object(Slim\Psr7\Request))
+#2 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(312): {closure}(Object(Slim\Psr7\Request), Object(class@anonymous))
+#3 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/MiddlewareDispatcher.php(81): class@anonymous->handle(Object(Slim\Psr7\Request))
+#4 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(215): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request))
+#5 /home/nandeesh/Documents/codetrophs/v1/vendor/slim/slim/Slim/App.php(199): Slim\App->handle(Object(Slim\Psr7\" while reading response header from upstream, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"

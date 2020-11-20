@@ -1,0 +1,14 @@
+1. Install nginx
+2. Install php-fpm php-xml php-mbstring
+3. Add a file in /etc/nginx/sites-available/ -> codetrophs.com
+4. In codetrophs.com make php socket 7.2 and root as ~/Documents/codetrophs 
+4b. Add ln -S to that in sites-enabled
+5. chown -R $USER:$USER in codetrophs directory
+6. test and restart by sudo nginx -t and sudo service nginx restart
+7. Install postgresql and postgresql-contrib
+8. Change to user and start postgres by -> 1.(sudo -i -u postgres) 2.(psql) (Exit by typing \q and then exit)
+9. Add more users to postgres and work in their databases only
+10. download composer file and move its bin to /usr/local/bin
+11. composer is used to install slim/slim and slim/psr7
+11b. make index.php in public folder and write api routes
+12. Copy web server settings to nginx from slim site and change port for php-fpm in www.conf or something at /etc/php/7.2/fpm/pool.d/
