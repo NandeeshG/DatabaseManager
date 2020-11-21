@@ -13,16 +13,12 @@
             <v-btn block href="/student"> STUDENT </v-btn>
             <v-list two-line>
               <v-list-item>
-                <v-list-item-title> Registered </v-list-item-title>
-                <v-list-item-subtitle> 20 </v-list-item-subtitle>
-              </v-list-item>
-              <v-list-item>
-                <v-list-item-title> Present </v-list-item-title>
+                <v-list-item-title> Total </v-list-item-title>
                 <v-list-item-subtitle> 30 </v-list-item-subtitle>
               </v-list-item>
               <v-list-item>
-                <v-list-item-title> Absent </v-list-item-title>
-                <v-list-item-subtitle> 40 </v-list-item-subtitle>
+                <v-list-item-title> Unique classes </v-list-item-title>
+                <v-list-item-subtitle> 30 </v-list-item-subtitle>
               </v-list-item>
             </v-list>
           </v-col>
@@ -30,24 +26,26 @@
             <v-btn block href="/teacher"> TEACHER </v-btn>
             <v-list two-line>
               <v-list-item>
-                <v-list-item-title> Registered </v-list-item-title>
+                <v-list-item-title> Total </v-list-item-title>
                 <v-list-item-subtitle> 20 </v-list-item-subtitle>
               </v-list-item>
               <v-list-item>
-                <v-list-item-title> Present </v-list-item-title>
+                <v-list-item-title> Avg classes per teacher </v-list-item-title>
                 <v-list-item-subtitle> 30 </v-list-item-subtitle>
-              </v-list-item>
-              <v-list-item>
-                <v-list-item-title> Absent </v-list-item-title>
-                <v-list-item-subtitle> 40 </v-list-item-subtitle>
               </v-list-item>
             </v-list>
           </v-col>
         </v-row>
-        <v-row>
-          <v-btn block> CLEAR DATA (are you sure)</v-btn>
-          <v-btn block> CLASS VIEW </v-btn>
-        </v-row>
+        <v-row justify="center">
+          <v-col cols="12" justify="center">
+            <v-btn block> CLEAR DATA (are you sure)</v-btn>
+          </v-col></v-row
+        >
+        <v-row justify="center">
+          <v-col cols="12" justify="center">
+            <v-btn block> CLASS VIEW </v-btn>
+          </v-col></v-row
+        >
         <v-divider></v-divider>
       </v-container>
     </v-main>
@@ -57,3 +55,5 @@
 <script>
 export default {}
 </script>
+
+<style></style>
