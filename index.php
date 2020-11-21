@@ -1,3 +1,0 @@
-<?php
-codetrophs home
-?>
