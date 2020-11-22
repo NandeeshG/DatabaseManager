@@ -1,0 +1,39 @@
+# from slim.com
+server {
+    listen 8383;
+    server_name _;
+    index index.php index.html;
+    error_log /home/nandeesh/Documents/DatabaseManager/v1/databasemanager.error.log;
+    access_log /home/nandeesh/Documents/DatabaseManager/v1/databasemanager.access.log;
+    root /home/nandeesh/Documents/DatabaseManager/v1/public;
+
+    location / {
+        try_files $uri /index.php$is_args$args;
+    }
+
+    location ~ \.php {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+        fastcgi_index index.php;
+        fastcgi_pass 127.0.0.1:9000;
+        #fpm server should be serving at 9000 from its config file (see steps.txt)
+    }
+}
+
+server {
+    listen 8080;
+    server_name _;
+    index index.html;
+    error_log /home/nandeesh/Documents/DatabaseManager/fe/dist/databasemanager.error.log;
+    access_log /home/nandeesh/Documents/DatabaseManager/fe/dist/databasemanager.access.log;
+    root /home/nandeesh/Documents/DatabaseManager/fe/dist;
+
+    location / {
+      try_files $uri $uri/ =404;
+    }
+
+}
+
