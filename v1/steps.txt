@@ -1,3 +1,5 @@
+0. Download all prereqs like node vue git php composer(with php) nuxt etc etc etc
+
 1. Install nginx
 2. Install php-fpm php-xml php-mbstring
 3. Add a file in /etc/nginx/sites-available/ -> codetrophs.com
