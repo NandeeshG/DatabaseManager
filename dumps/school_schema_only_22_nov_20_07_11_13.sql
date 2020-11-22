@@ -90,38 +90,6 @@ CREATE TABLE public.teacherassigned (
 ALTER TABLE public.teacherassigned OWNER TO nandeesh;
 
 --
--- Data for Name: class; Type: TABLE DATA; Schema: public; Owner: nandeesh
---
-
-COPY public.class (csi, class, sec) FROM stdin;
-\.
-
-
---
--- Data for Name: student; Type: TABLE DATA; Schema: public; Owner: nandeesh
---
-
-COPY public.student (roll, name, csi) FROM stdin;
-\.
-
-
---
--- Data for Name: teacher; Type: TABLE DATA; Schema: public; Owner: nandeesh
---
-
-COPY public.teacher (tid, name) FROM stdin;
-\.
-
-
---
--- Data for Name: teacherassigned; Type: TABLE DATA; Schema: public; Owner: nandeesh
---
-
-COPY public.teacherassigned (tid, csi) FROM stdin;
-\.
-
-
---
 -- Name: class class_pkey; Type: CONSTRAINT; Schema: public; Owner: nandeesh
 --
 
